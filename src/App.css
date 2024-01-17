@@ -34,7 +34,7 @@ html, body {
   height: 100%;
   margin: 0;
   padding: 0;
-  font-family: 'air-regular';
+  font-family: 'air-light';
   background: #151515;
   color: #fff;
 }
@@ -94,9 +94,9 @@ html, body {
   justify-content: space-between;
 }
 
-p {
+/* p {
   font-size: var(--normal-font) !important;
-}
+} */
 
 @media (min-width: 1400px) {
   .App {

@@ -11,7 +11,7 @@ const Post = ({ id, title, tags, url, publicationDate, readTime }) => {
       itemScope
       itemType="http://schema.org/Article"
     >
-      <Link to={url} itemProp="url" className="post">
+      <a href={url} itemProp="url" className="post" target="_blank">
         <div className="post_meta">
           <small className="post_tags">
             {tags.map((tag, index) =>
@@ -28,7 +28,7 @@ const Post = ({ id, title, tags, url, publicationDate, readTime }) => {
             {readTime} mins read
           </small>
         </div>
-      </Link>
+      </a>
     </article>
   );
 };

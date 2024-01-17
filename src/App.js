@@ -5,7 +5,7 @@ import { Switch } from "react-router";
 import "./App.css";
 import Base from "./components/base/Base";
 import Work from "./components/work/Work";
-import Resume from "./components/resume/Resume";
+import Articles from "./components/articles/Articles";
 // import Contact from "./components/contact/Contact";
 import Mobile from "./components/base/Mobile";
 import Header from "./components/utils/header/Header";
@@ -69,7 +69,7 @@ export class App extends Component {
                   exact
                   path='/articles'
                   render={(props) => (
-                    <Resume
+                    <Articles
                       menu={this.state.menu}
                       activeMenu={this.activeMenu.bind(this)}
                     />
@@ -156,7 +156,7 @@ export class App extends Component {
                     exact
                     path='/articles'
                     render={(props) => (
-                      <Resume
+                      <Articles
                         menu={this.state.menu}
                         activeMenu={this.activeMenu.bind(this)}
                       />

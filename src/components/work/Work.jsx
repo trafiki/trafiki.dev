@@ -11,65 +11,76 @@ export class Work extends Component {
     projects: [
       {
         id: uuid(),
-        title: "Checkmate",
-        description: "Sign up portal for Checkmate Africa community",
-        github: "https://github.com/kadetXx/checkmate",
-        live: "https://checkmate.africa/",
-        stack: "React + Styled Components",
+        title: "React Coolors",
+        description: "The love child of Flatui colors and Material UI colors 😉",
+        github: "https://github.com/trafiki/react-coolors",
+        live: "https://react-coolors.vercel.app/",
+        stack: "React + Material UI",
         isPrivate: false,
-        isRepository: true,
+        isRepository: false,
       },
       {
         id: uuid(),
-        title: "Birdbox",
-        description: "Social application with Real time Messaging",
-        github: "https://github.com/kadetXx/birdbox",
-        live: "https://birdbox.space/",
-        stack: "Vue + Socket.io + Express",
+        title: "Jamkey Shop",
+        description: "A simple implementation of a shopping cart that persists cart items data in local storage",
+        github: "https://github.com/trafiki/jamkey-cart?tab=readme-ov-file",
+        live: "https://jamkey-cart.vercel.app/",
+        stack: "React + TS",
         isPrivate: false,
         isRepository: false,
       },
 
       {
         id: uuid(),
-        title: "EndSars",
-        description: "Web app to support the #EndSARS campaign",
-        github: "https://github.com/kadetXx/endsars",
-        live: "https://endsars.vercel.app/",
-        stack: "React",
-        isPrivate: false,
+        title: "Hebedi",
+        description: "A fashion store that sells locally handdyed clothing",
+        github: "",
+        live: "https://hebedi.com/",
+        stack: "Shopify",
+        isPrivate: true,
         isRepository: false,
       },
 
       {
         id: uuid(),
-        title: "Shoppies",
-        description: "Movie Awards Nomination App",
-        github: "https://github.com/kadetXx/shoppies",
-        live: "https://shoppiesawards.netlify.app/",
-        stack: "React + SASS",
-        isPrivate: false,
+        title: "Hingees",
+        description: "A simple and minimalist lifestyle brand that makes functional products",
+        github: "",
+        live: "https://hingees.com/",
+        stack: "Wordpress",
+        isPrivate: true,
         isRepository: false,
       },
 
       {
         id: uuid(),
-        title: "Vectorly",
-        description: "Draw basic shapes with SVG",
-        github: "https://github.com/kadetXx/vectorly",
-        live: "https://vectorly.kadetxx.vercel.app/",
-        stack: "React",
-        isPrivate: false,
+        title: "Patrick Dahm",
+        description: "Portfolio for Patrick Dahm",
+        github: "",
+        live: "https://www.dahm.sg/",
+        stack: "Wordpress",
+        isPrivate: true,
         isRepository: false,
       },
 
       {
         id: uuid(),
-        title: "Animepanda",
-        description: "Mobile App landing page",
-        github: "https://github.com/kadetXx/animepanda",
-        live: "https://animepanda.herokuapp.com",
-        stack: "Sass + Javsacript + PHP",
+        title: "PEVCA",
+        description: "Website for PEVCA",
+        github: "",
+        live: "https://pevcang.org/",
+        stack: "Wordpress",
+        isPrivate: true,
+        isRepository: false,
+      }, 
+
+      {
+        id: uuid(),
+        title: "RDC",
+        description: "A diamond jewely store in New York",
+        github: "",
+        live: "https://rarediamondclub.com/",
+        stack: "Wordpress",
         isPrivate: false,
         isRepository: false,
       }, 
@@ -93,8 +104,8 @@ export class Work extends Component {
 
       <div className="portfolio_showcase">
         <h3 className="title">OTHER PROJECTS</h3>
-        {this.state.projects.slice(2).map((project, index) => (
-          <Project key={index} {...project} id={index} />
+        {this.state.projects.slice(2).map((project) => (
+          <Project key={project.id} {...project} id={project.id} />
         ))}
       </div>
 
