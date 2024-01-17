@@ -44,7 +44,7 @@ export class Work extends Component {
       {
         id: uuid(),
         title: "Hingees",
-        description: "A simple and minimalist lifestyle brand that makes functional products",
+        description: "Webisite design for a Lagos based minimalist lifestyle brand",
         github: "",
         live: "https://hingees.com/",
         stack: "Wordpress",
@@ -66,7 +66,7 @@ export class Work extends Component {
       {
         id: uuid(),
         title: "PEVCA",
-        description: "Website for PEVCA",
+        description: "Website design for PEVCA",
         github: "",
         live: "https://pevcang.org/",
         stack: "Wordpress",
@@ -77,7 +77,7 @@ export class Work extends Component {
       {
         id: uuid(),
         title: "RDC",
-        description: "A diamond jewely store in New York",
+        description: "Website design for a New York based diamond jewely store",
         github: "",
         live: "https://rarediamondclub.com/",
         stack: "Wordpress",

@@ -1,7 +1,7 @@
 import React from "react";
 import "./PostCard.css"; 
 
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 
 const Post = ({ id, title, tags, url, publicationDate, readTime }) => {
   
@@ -11,7 +11,7 @@ const Post = ({ id, title, tags, url, publicationDate, readTime }) => {
       itemScope
       itemType="http://schema.org/Article"
     >
-      <a href={url} itemProp="url" className="post" target="_blank">
+      <a href={url} itemProp="url" className="post" target="_blank" rel="noreferrer">
         <div className="post_meta">
           <small className="post_tags">
             {tags.map((tag, index) =>
