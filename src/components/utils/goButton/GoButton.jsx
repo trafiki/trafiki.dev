@@ -21,10 +21,10 @@ const GoButton = ({ prev, next }) => {
         <a
           target="_blank"
           rel="noopener noreferrer"
-          href="https://www.linkedin.com/in/babatunde-akerele/"
+          href="https://www.frontendmentor.io/profile/trafiki"
         >
           <button>
-            Linked In <span className="material-icons">arrow_right</span>
+            FE Mentor <span className="material-icons">arrow_right</span>
           </button>
         </a>
       )}

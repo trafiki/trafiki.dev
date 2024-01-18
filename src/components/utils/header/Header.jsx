@@ -36,8 +36,19 @@ export class Header extends Component {
                   <li><Link to='/' onClick={this.toggleMenu.bind(this)}>Home</Link> </li>
                   <li><Link to='/work' onClick={this.toggleMenu.bind(this)}>Work</Link> </li>
                   <li><Link to='/articles' onClick={this.toggleMenu.bind(this)}>Articles</Link> </li>
-                  {/* <li><Link to='/contact' onClick={this.toggleMenu.bind(this)}>Contact</Link> </li> */}
+                  <li><a target="_blank" rel="noopener noreferrer" href="https://www.frontendmentor.io/profile/trafiki" onClick={this.toggleMenu.bind(this)}>FE Mentor</a> </li>
                 </ul>
+
+                {/* <small>
+                03{" "}
+                <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://www.frontendmentor.io/profile/trafiki"
+              >
+                  <img src={navLine} alt='menu bullet' /> FE MENTOR
+                </a>
+              </small> */}
 
                 <div className="social_box">
                 <h3>Connect With Me</h3>
