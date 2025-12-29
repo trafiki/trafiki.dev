@@ -23,9 +23,10 @@ export class Base extends Component {
           <div className='description'>
             <p>
               <span>
-                I'm a passionate <span className='highlight'>software engineer</span> specializing in <span className="highlight two">frontend development</span>, where I channel my problem-solving skills to create captivating and interactive <span className="highlight">experiences</span> for amazing users. With a keen eye for aesthetics, I find joy in meticulously tweaking <span className="highlight two">stylesheets</span> and crafting  <span className="highlight">layouts</span> to achieve the <span className="highlight two">perfect</span> blend of form and function.
+                I'm a <span className='highlight'>software engineer</span> specializing in <span className='highlight two'>frontend development</span>, focused on building reliable, scalable, and <span className="highlight two">user-centric web applications.</span> I combine strong problem-solving skills with a deep understanding of <span className="highlight">modern frontend technologies</span> to deliver performant, maintainable solutions, while ensuring a thoughtful balance between functionality, usability, and visual clarity. I <span className="highlight two">currently work at TeamSportz</span>, where I build comprehensive management tools for sports teams and organizations, handling everything from live game scoring and video analysis to competition management and real-time communication.
               </span>
             </p>
+            
           </div>
 
           <div className='go_button_container'>
