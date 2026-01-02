@@ -24,7 +24,7 @@ export class Work extends Component {
         title: "FlowClock",
         description: "A one-tap focus timer for deep work that intelligently tracks productive time, interruptions, and breaks, delivering automatic efficiency scores",
         github: "",
-        live: "#",
+        live: "https://chromewebstore.google.com/detail/flowclock/aihgmfdpejfncbhefhoicgfallijafmj",
         stack: "JS + HTML5 + CSS3",
         isPrivate: true,
         isRepository: false,
